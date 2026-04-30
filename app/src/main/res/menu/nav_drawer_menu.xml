@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_seller_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_seller_orders"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Order History" />
+        <item
+            android:id="@+id/nav_seller_account"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Account" />
+    </group>
+
+    <item android:title="Theme">
+        <menu>
+            <item
+                android:id="@+id/nav_light_theme"
+                android:icon="@android:drawable/button_onoff_indicator_off"
+                android:title="Light Theme" />
+            <item
+                android:id="@+id/nav_dark_theme"
+                android:icon="@android:drawable/button_onoff_indicator_on"
+                android:title="Dark Theme" />
+        </menu>
+    </item>
+
+</menu>
