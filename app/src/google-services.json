@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763671343670",
+    "project_id": "smd-assignment3-95c87",
+    "storage_bucket": "smd-assignment3-95c87.firebasestorage.app"
+  },
+  "client":
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763671343670:android:ed6771537dad9089bf1e97",
+        "android_client_info": {
+          "package_name": "com.example.fastmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763671343670-cfu6djnbobr18u9566lfmhpuigek7jfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsRi94stMJW1UcoiLD7ibFEfyOmU_Y_NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763671343670-cfu6djnbobr18u9566lfmhpuigek7jfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
