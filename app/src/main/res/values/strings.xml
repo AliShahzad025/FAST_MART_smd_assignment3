@@ -1,3 +1,74 @@
 <resources>
-    <string name="app_name">smd_assignment3</string>
+    <string name="app_name">FastMart</string>
+
+    <!-- Screen Titles -->
+    <string name="title_login">Login</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="title_home">Home</string>
+    <string name="title_product">Product</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_account">Account</string>
+    <string name="title_order_history">Order History</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_complete_profile">Complete Profile</string>
+
+    <string name="welcome_title">Welcome to FastMart</string>
+    <string name="welcome_subtitle">Discover products you love, delivered to your door.</string>
+
+    <!-- Button Labels -->
+    <string name="btn_login">Log In</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_save_profile">Save Profile</string>
+    <string name="btn_add_product">Add Product</string>
+    <string name="btn_buy_now">Buy Now</string>
+    <string name="btn_checkout">Checkout</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="btn_get_started">Get Started →</string>
+    <string name="btn_send">Send</string>
+
+    <!-- Field Hints -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_product_type">Product Type</string>
+    <string name="hint_product_price">Product Price</string>
+    <string name="hint_product_description">Product Description</string>
+    <string name="hint_message">Message</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_delete_favourite_confirm">Are you sure you want to remove this item from favourites?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_logout_confirm">Are you sure you want to log out?</string>
+
+    <!-- Navigation Labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_chat_seller">Chat with Seller</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_added_to_cart">Product added to cart</string>
+    <string name="toast_added_to_favourites">Product added to favourites</string>
+    <string name="toast_order_success">Order placed successfully</string>
+    <string name="toast_fill_all_fields">Please fill all fields</string>
+    <string name="toast_passwords_mismatch">Passwords do not match</string>
+
+    <!-- Theme Labels -->
+    <string name="label_light_theme">Light Theme</string>
+    <string name="label_dark_theme">Dark Theme</string>
+
+    <!-- Options -->
+    <string name="option_male">Male</string>
+    <string name="option_female">Female</string>
+    <string name="option_buyer">Buyer</string>
+    <string name="option_seller">Seller</string>
 </resources>
