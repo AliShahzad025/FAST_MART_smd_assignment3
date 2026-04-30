@@ -1,0 +1,20 @@
+// FILE: app/src/main/res/menu/buyer_bottom_menu.xml
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/nav_cart" />
+    <item
+        android:id="@+id/nav_favourites"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="@string/nav_favourites" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_account" />
+</menu>
