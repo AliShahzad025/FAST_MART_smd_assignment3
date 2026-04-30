@@ -1,4 +1,3 @@
-// FILE: AndroidManifest.xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fastmart">
@@ -17,7 +16,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".SplashActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +24,7 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".SplashActivity" />
         <activity android:name=".AuthActivity" />
         <activity android:name=".CompleteProfileActivity" />
         <activity android:name=".BuyerHomeActivity" />
