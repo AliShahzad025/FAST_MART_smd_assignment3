@@ -18,6 +18,13 @@ public class CartRepository {
         return dbHelper.getAllCartItems();
     }
 
+    /**
+     * Inserts a product into the cart or updates quantity if it exists.
+     */
+    public void insertOrUpdate(ProductModel product) {
+        dbHelper.insertOrUpdate(product);
+    }
+
     public void updateQuantity(int cartId, int qty) {
         dbHelper.updateQuantity(cartId, qty);
     }

@@ -28,7 +28,7 @@ public class BuyerHomeActivity extends AppCompatActivity {
         // Load HomeFragment by default
         loadFragment(new HomeFragment());
 
-        // Bottom Navigation Logic
+        // Bottom Navigation Logic: Switch between Fragments
         bottomNav.setOnItemSelectedListener(item -> {
             Fragment fragment = null;
             int itemId = item.getItemId();
@@ -36,9 +36,9 @@ public class BuyerHomeActivity extends AppCompatActivity {
             if (itemId == R.id.nav_home) {
                 fragment = new HomeFragment();
             } else if (itemId == R.id.nav_cart) {
-                // fragment = new CartFragment();
+                fragment = new CartFragment();
             } else if (itemId == R.id.nav_favourites) {
-                // fragment = new FavouritesFragment();
+                fragment = new FavouritesFragment();
             } else if (itemId == R.id.nav_account) {
                 // fragment = new AccountFragment();
             }

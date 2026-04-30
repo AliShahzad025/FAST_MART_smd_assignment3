@@ -4,7 +4,7 @@
     "project_id": "smd-assignment3-95c87",
     "storage_bucket": "smd-assignment3-95c87.firebasestorage.app"
   },
-  "client":
+  "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:763671343670:android:ed6771537dad9089bf1e97",

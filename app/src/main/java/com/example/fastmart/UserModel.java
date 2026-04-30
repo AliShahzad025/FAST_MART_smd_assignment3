@@ -9,26 +9,26 @@ public class UserModel {
     private String email;
     private String address;
     private String gender;
+    private String dob;
     private String phoneNumber;
     private String country;
     private String accountType;
 
-    // Default constructor required for Firebase
     public UserModel() {}
 
     public UserModel(String uid, String name, String email, String address, String gender, 
-                     String phoneNumber, String country, String accountType) {
+                     String dob, String phoneNumber, String country, String accountType) {
         this.uid = uid;
         this.name = name;
         this.email = email;
         this.address = address;
         this.gender = gender;
+        this.dob = dob;
         this.phoneNumber = phoneNumber;
         this.country = country;
         this.accountType = accountType;
     }
 
-    // Getters and Setters
     public String getUid() { return uid; }
     public void setUid(String uid) { this.uid = uid; }
     public String getName() { return name; }
@@ -39,6 +39,8 @@ public class UserModel {
     public void setAddress(String address) { this.address = address; }
     public String getGender() { return gender; }
     public void setGender(String gender) { this.gender = gender; }
+    public String getDob() { return dob; }
+    public void setDob(String dob) { this.dob = dob; }
     public String getPhoneNumber() { return phoneNumber; }
     public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
     public String getCountry() { return country; }
